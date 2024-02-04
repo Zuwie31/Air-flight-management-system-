@@ -1,0 +1,71 @@
+String Payment = input.next();
+        System.out.println("Payment: "+ Payment);
+        
+         Target_Bill = (ONE_BED_ROOM_VIP_PRICE * Days)+ ( Tax);
+         System.out.println("One Bed Room VIP: "+ ONE_BED_ROOM_VIP_PRICE+ "$");
+         System.out.println("Tax: "+ Tax);
+         System.out.println("------------------------------------------------------------------------------");
+         System.out.println("Total Bill: "+ Target_Bill + "$");
+         System.out.println("------------------------------------------------------------------------------");
+         System.out.println("Your Booked was succeeded");
+       }
+       if (userInput == 'g'){
+         
+        String name = input.next();
+        System.out.println("Name: "+ name);
+        
+        int age = input.nextInt();
+        System.out.println("Age: "+ age);
+        
+        
+        String Room_Number = input.next();
+        System.out.println("Room Number: "+ Room_Number);
+        
+        String Date = input.next();
+        System.out.println("Date: "+ Date);
+        
+        int Days = input.nextInt();
+        System.out.println("Days: "+ Days);
+        
+        String Payment = input.next();
+        System.out.println("Payment: "+ Payment);
+        
+         Target_Bill = ( TWO_BED_ROOM_VIP_PRICE * Days)+ ( Tax);
+         System.out.println("Two Bed Room VIP: "+ TWO_BED_ROOM_VIP_PRICE + "$");
+         System.out.println("Tax: "+ Tax);
+         System.out.println("------------------------------------------------------------------------------");
+         System.out.println("Total Bill: "+ Target_Bill + "$");
+         System.out.println("------------------------------------------------------------------------------");
+         System.out.println("Your Booked was succeeded");
+       }
+       if (userInput == 'h'){
+         
+        String name = input.next();
+        System.out.println("Name: "+ name);
+        
+        int age = input.nextInt();
+        System.out.println("Age: "+ age);
+        
+        
+        String Room_Number = input.next();
+        System.out.println("Room Number: "+ Room_Number);
+        
+        String Date = input.next();
+        System.out.println("Date: "+ Date);
+        
+        int Days = input.nextInt();
+        System.out.println("Days: "+ Days);
+        
+        String Payment = input.next();
+        System.out.println("Payment: "+ Payment);
+        
+         Target_Bill = (FAMILY_ROOM_PRICE * Days)+ ( Tax);
+         System.out.println("Family Room : "+ FAMILY_ROOM_PRICE + "$");
+         System.out.println("Tax: "+ Tax);
+         System.out.println("------------------------------------------------------------------------------");
+         System.out.println("Total Bill: "+ Target_Bill + "$");
+         System.out.println("------------------------------------------------------------------------------");
+         System.out.println("Your Booked was succeeded");
+       }
+    }
+}
